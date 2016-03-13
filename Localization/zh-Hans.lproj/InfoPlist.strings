@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Localization
+
+  Created by heke on 16/3/14.
+  Copyright © 2016年 mhk. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "中文名字";
+
+//也可以直接修改Info.plist文件，添加 bundle display name ： app名字｛不支持国际化｝
+//系统控件本地化方法：target-->info->add:
+//{key  :<Localization native development region>;
+// value:<china>}

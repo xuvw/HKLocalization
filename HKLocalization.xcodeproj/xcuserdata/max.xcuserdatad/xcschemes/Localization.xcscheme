@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "503085801C95CA9800CE9746"
-               BuildableName = "Localization.app"
-               BlueprintName = "Localization"
-               ReferencedContainer = "container:Localization.xcodeproj">
+               BuildableName = "HKLocalization.app"
+               BlueprintName = "HKLocalization"
+               ReferencedContainer = "container:HKLocalization.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503085801C95CA9800CE9746"
-            BuildableName = "Localization.app"
-            BlueprintName = "Localization"
-            ReferencedContainer = "container:Localization.xcodeproj">
+            BuildableName = "HKLocalization.app"
+            BlueprintName = "HKLocalization"
+            ReferencedContainer = "container:HKLocalization.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503085801C95CA9800CE9746"
-            BuildableName = "Localization.app"
-            BlueprintName = "Localization"
-            ReferencedContainer = "container:Localization.xcodeproj">
+            BuildableName = "HKLocalization.app"
+            BlueprintName = "HKLocalization"
+            ReferencedContainer = "container:HKLocalization.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "503085801C95CA9800CE9746"
-            BuildableName = "Localization.app"
-            BlueprintName = "Localization"
-            ReferencedContainer = "container:Localization.xcodeproj">
+            BuildableName = "HKLocalization.app"
+            BlueprintName = "HKLocalization"
+            ReferencedContainer = "container:HKLocalization.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -13,10 +13,13 @@
 		5030858F1C95CA9800CE9746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5030858D1C95CA9800CE9746 /* Main.storyboard */; };
 		503085911C95CA9800CE9746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503085901C95CA9800CE9746 /* Assets.xcassets */; };
 		503085941C95CA9800CE9746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503085921C95CA9800CE9746 /* LaunchScreen.storyboard */; };
+		5030859D1C95CAE900CE9746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5030859F1C95CAE900CE9746 /* InfoPlist.strings */; };
+		503085A51C95CC2D00CE9746 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 503085A71C95CC2D00CE9746 /* Localizable.strings */; };
+		503085AA1C95CDEA00CE9746 /* memo.md in Sources */ = {isa = PBXBuildFile; fileRef = 503085A91C95CDEA00CE9746 /* memo.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		503085811C95CA9800CE9746 /* Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503085811C95CA9800CE9746 /* HKLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503085851C95CA9800CE9746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		503085871C95CA9800CE9746 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		503085881C95CA9800CE9746 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,11 @@
 		503085901C95CA9800CE9746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503085931C95CA9800CE9746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503085951C95CA9800CE9746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503085A11C95CB3B00CE9746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		503085A21C95CB7800CE9746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		503085A61C95CC2D00CE9746 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		503085A81C95CC3000CE9746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		503085A91C95CDEA00CE9746 /* memo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = memo.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		503085781C95CA9800CE9746 = {
 			isa = PBXGroup;
 			children = (
+				503085A91C95CDEA00CE9746 /* memo.md */,
 				503085831C95CA9800CE9746 /* Localization */,
 				503085821C95CA9800CE9746 /* Products */,
 			);
@@ -50,7 +59,7 @@
 		503085821C95CA9800CE9746 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				503085811C95CA9800CE9746 /* Localization.app */,
+				503085811C95CA9800CE9746 /* HKLocalization.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +76,8 @@
 				503085921C95CA9800CE9746 /* LaunchScreen.storyboard */,
 				503085951C95CA9800CE9746 /* Info.plist */,
 				503085841C95CA9800CE9746 /* Supporting Files */,
+				5030859F1C95CAE900CE9746 /* InfoPlist.strings */,
+				503085A71C95CC2D00CE9746 /* Localizable.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -82,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		503085801C95CA9800CE9746 /* Localization */ = {
+		503085801C95CA9800CE9746 /* HKLocalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 503085981C95CA9800CE9746 /* Build configuration list for PBXNativeTarget "Localization" */;
+			buildConfigurationList = 503085981C95CA9800CE9746 /* Build configuration list for PBXNativeTarget "HKLocalization" */;
 			buildPhases = (
 				5030857D1C95CA9800CE9746 /* Sources */,
 				5030857E1C95CA9800CE9746 /* Frameworks */,
@@ -94,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = Localization;
+			name = HKLocalization;
 			productName = Localization;
-			productReference = 503085811C95CA9800CE9746 /* Localization.app */;
+			productReference = 503085811C95CA9800CE9746 /* HKLocalization.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,20 +124,21 @@
 					};
 				};
 			};
-			buildConfigurationList = 5030857C1C95CA9800CE9746 /* Build configuration list for PBXProject "Localization" */;
+			buildConfigurationList = 5030857C1C95CA9800CE9746 /* Build configuration list for PBXProject "HKLocalization" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 503085781C95CA9800CE9746;
 			productRefGroup = 503085821C95CA9800CE9746 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				503085801C95CA9800CE9746 /* Localization */,
+				503085801C95CA9800CE9746 /* HKLocalization */,
 			);
 		};
 /* End PBXProject section */
@@ -136,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503085A51C95CC2D00CE9746 /* Localizable.strings in Resources */,
 				503085941C95CA9800CE9746 /* LaunchScreen.storyboard in Resources */,
+				5030859D1C95CAE900CE9746 /* InfoPlist.strings in Resources */,
 				503085911C95CA9800CE9746 /* Assets.xcassets in Resources */,
 				5030858F1C95CA9800CE9746 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503085AA1C95CDEA00CE9746 /* memo.md in Sources */,
 				5030858C1C95CA9800CE9746 /* ViewController.m in Sources */,
 				503085891C95CA9800CE9746 /* AppDelegate.m in Sources */,
 				503085861C95CA9800CE9746 /* main.m in Sources */,
@@ -172,6 +187,24 @@
 				503085931C95CA9800CE9746 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5030859F1C95CAE900CE9746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503085A11C95CB3B00CE9746 /* zh-Hans */,
+				503085A21C95CB7800CE9746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		503085A71C95CC2D00CE9746 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503085A61C95CC2D00CE9746 /* zh-Hans */,
+				503085A81C95CC3000CE9746 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -264,7 +297,7 @@
 				INFOPLIST_FILE = Localization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.Localization;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HKLocalization;
 			};
 			name = Debug;
 		};
@@ -275,14 +308,14 @@
 				INFOPLIST_FILE = Localization/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.Localization;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HKLocalization;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5030857C1C95CA9800CE9746 /* Build configuration list for PBXProject "Localization" */ = {
+		5030857C1C95CA9800CE9746 /* Build configuration list for PBXProject "HKLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503085961C95CA9800CE9746 /* Debug */,
@@ -291,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503085981C95CA9800CE9746 /* Build configuration list for PBXNativeTarget "Localization" */ = {
+		503085981C95CA9800CE9746 /* Build configuration list for PBXNativeTarget "HKLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503085991C95CA9800CE9746 /* Debug */,
